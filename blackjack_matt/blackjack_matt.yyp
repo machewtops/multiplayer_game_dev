@@ -1,6 +1,6 @@
 {
   "$GMProject":"",
-  "%Name":"Prototype_Matt",
+  "%Name":"blackjack_matt",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -32,15 +32,18 @@
   "MetaData":{
     "IDEVersion":"2024.2.0.132",
   },
-  "name":"Prototype_Matt",
+  "name":"blackjack_matt",
   "resources":[
+    {"id":{"name":"obj_blackjack_dealer","path":"objects/obj_blackjack_dealer/obj_blackjack_dealer.yy",},},
+    {"id":{"name":"obj_blackjack_p1","path":"objects/obj_blackjack_p1/obj_blackjack_p1.yy",},},
+    {"id":{"name":"obj_blackjack_p2","path":"objects/obj_blackjack_p2/obj_blackjack_p2.yy",},},
+    {"id":{"name":"obj_blackjack","path":"objects/obj_blackjack/obj_blackjack.yy",},},
     {"id":{"name":"obj_dancer","path":"objects/obj_dancer/obj_dancer.yy",},},
     {"id":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},},
-    {"id":{"name":"obj_blackjack","path":"objects/obj_blackjack/obj_blackjack.yy",},},
-    {"id":{"name":"blackjack","path":"rooms/blackjack/blackjack.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"rm_blackjack","path":"rooms/rm_blackjack/rm_blackjack.yy",},},
     {"id":{"name":"spr_crouch","path":"sprites/spr_crouch/spr_crouch.yy",},},
     {"id":{"name":"spr_dancer","path":"sprites/spr_dancer/spr_dancer.yy",},},
     {"id":{"name":"spr_face","path":"sprites/spr_face/spr_face.yy",},},
@@ -61,8 +64,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_blackjack","path":"rooms/rm_blackjack/rm_blackjack.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"blackjack","path":"rooms/blackjack/blackjack.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
