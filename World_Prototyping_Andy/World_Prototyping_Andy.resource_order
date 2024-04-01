@@ -18,9 +18,11 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_floorspot","order":1,"path":"objects/obj_floorspot/obj_floorspot.yy",},
-    {"name":"obj_player","order":2,"path":"objects/obj_player/obj_player.yy",},
     {"name":"obj_mgr","order":3,"path":"objects/obj_mgr/obj_mgr.yy",},
+    {"name":"obj_player_2","order":4,"path":"objects/obj_player_2/obj_player_2.yy",},
+    {"name":"obj_player","order":2,"path":"objects/obj_player/obj_player.yy",},
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"spr_player","order":1,"path":"sprites/spr_player/spr_player.yy",},
+    {"name":"spr_player_2","order":2,"path":"sprites/spr_player_2/spr_player_2.yy",},
   ],
 }
