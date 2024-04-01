@@ -11,3 +11,10 @@ for (i = 0; i < instance_number(obj_floorspot); i++) {
 		break
 	}
 }
+
+old_x = x
+old_y = y
+walk_to_x = x
+walk_to_y = y
+
+step = 0
