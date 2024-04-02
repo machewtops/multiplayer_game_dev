@@ -52,6 +52,6 @@ function walk_step() {
 	
 	if !(round(abs(walk_to_y - y)) > 0 || round(abs(walk_to_x - x)) > 0) {
 		player_moving = false
-		obj_mgr.new_minigame();
+		obj_main_game_mgr.new_minigame();
 	}
 }

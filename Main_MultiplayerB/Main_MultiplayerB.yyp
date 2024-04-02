@@ -48,7 +48,7 @@
     {"id":{"name":"obj_dancer","path":"objects/obj_dancer/obj_dancer.yy",},},
     {"id":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},},
     {"id":{"name":"obj_floorspot","path":"objects/obj_floorspot/obj_floorspot.yy",},},
-    {"id":{"name":"obj_mgr","path":"objects/obj_mgr/obj_mgr.yy",},},
+    {"id":{"name":"obj_main_game_mgr","path":"objects/obj_main_game_mgr/obj_main_game_mgr.yy",},},
     {"id":{"name":"obj_player_1","path":"objects/obj_player_1/obj_player_1.yy",},},
     {"id":{"name":"obj_player_2","path":"objects/obj_player_2/obj_player_2.yy",},},
     {"id":{"name":"obj_player_foundation","path":"objects/obj_player_foundation/obj_player_foundation.yy",},},
