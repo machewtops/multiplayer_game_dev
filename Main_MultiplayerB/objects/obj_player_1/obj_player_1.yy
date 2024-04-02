@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_player_1",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_player_1",
   "overriddenProperties":[],
@@ -15,7 +13,7 @@
     "name":"obj_player_foundation",
     "path":"objects/obj_player_foundation/obj_player_foundation.yy",
   },
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,

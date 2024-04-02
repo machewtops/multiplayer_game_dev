@@ -50,8 +50,43 @@ function walk_step() {
 		}
 	}
 	
+	show_debug_message(spots_remaining);
+	
 	if !(round(abs(walk_to_y - y)) > 0 || round(abs(walk_to_x - x)) > 0) {
 		player_moving = false
-		obj_main_game_mgr.new_minigame();
+		if spots_remaining == 0 {
+			show_debug_message("blah")
+			obj_main_game_mgr.new_minigame();
+		} else {
+			show_debug_message("rah")
+			if spots_remaining > 0 {
+				spots_remaining -= 1
+			} else if spots_remaining < 0 {
+				spots_remaining += 1
+			}
+			
+			if spots_remaining > 0 {
+				move_forward()
+			} else if spots_remaining < 0 {
+				move_backward()
+			}
+		}
+	}
+}
+
+if old_x == walk_to_x && old_y == walk_to_y {
+	if spots_remaining > 0 {
+		move_forward()
+	} else if spots_remaining < 0 {
+		move_backward()
+	}
+} else {
+	walk_step()
+	
+	if !(round(abs(walk_to_y - y)) > 0 || round(abs(walk_to_x - x)) > 0) {
+		if spots_remaining == 0 {
+			player_moving = false
+			obj_main_game_mgr.new_minigame();
+		}
 	}
 }
