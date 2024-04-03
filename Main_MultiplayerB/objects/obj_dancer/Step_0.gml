@@ -82,5 +82,6 @@ if timeleft <= 0 {
 		    SCOREP2++;
 		}
 	}
-	room_goto(rm_tiles);
+	
+	obj_main_game_mgr.end_minigame()
 }
