@@ -29,17 +29,20 @@ if game_state == GAME_STATE.WAITING_DICE_ROLL && keyboard_check_pressed(ord("R")
 	game_state = GAME_STATE.PLAYER_MOVING;
 	dice_val = irandom_range(1,6);
 	
-	switch player_turn % 3 {
-		case 0:
-			obj_player_1.spots_remaining = dice_val;
-			break;
-		case 1:
-			obj_player_2.spots_remaining = dice_val;
-			break;
-		case 2:
-			obj_player_3.spots_remaining = dice_val;
-			break;
-	}
+	obj_player_1.spots_remaining = 1;
+	obj_player_2.spots_remaining = 1;
+	obj_player_3.spots_remaining = 1;
+	//switch player_turn % 3 {
+	//	case 0:
+			
+	//		break;
+	//	case 1:
+			
+	//		break;
+	//	case 2:
+			
+	//		break;
+	//}
 } 
 else if game_state == GAME_STATE.IN_MINIGAME && keyboard_check_pressed(ord("E")) {
 	end_minigame()

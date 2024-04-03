@@ -6,8 +6,8 @@
   "name":"obj_player_3",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"tiles",
+    "path":"folders/Objects/tiles.yy",
   },
   "parentObjectId":{
     "name":"obj_player_foundation",
