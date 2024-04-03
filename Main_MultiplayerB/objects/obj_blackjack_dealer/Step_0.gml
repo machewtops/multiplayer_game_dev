@@ -3,12 +3,12 @@
 dealerseed = random_range(0,10000)
 random_set_seed(dealerseed)
 
-if DEALERGEN == true && card1 == 0{
+if DEALERGEN == true && card1 == 0 {
 	card1 = irandom_range(1,11)
 	card2 = irandom_range(1,11)
 }
 
-if DEALERREVEAL == true {
+if DEALERREVEAL == true && DEALERREVEAL2 == true && DEALERREVEAL3 == true {
 	totalcard = card1 + card2 + card3 + card4 + card5 + card6;
 	if totalcard < 17 {
 		card3 = irandom_range(1,11)
