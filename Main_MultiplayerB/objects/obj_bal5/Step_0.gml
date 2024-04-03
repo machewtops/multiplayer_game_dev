@@ -4,6 +4,8 @@
 // You can write your code in this editor
 
 
-targetspd = 7
+y-=2
 
-hitscore = 0
+if y < 0{
+	y=room_height
+}

@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bal29",
+  "%Name":"obj_bal4",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_bal29",
+  "name":"obj_bal4",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite789",
-    "path":"sprites/Sprite789/Sprite789.yy",
+    "name":"Sprite7",
+    "path":"sprites/Sprite7/Sprite7.yy",
   },
   "spriteMaskId":null,
   "visible":true,

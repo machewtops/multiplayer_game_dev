@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_baloon_gen",
+  "%Name":"obj_bal3",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_baloon_gen",
+  "name":"obj_bal3",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite7",
+    "path":"sprites/Sprite7/Sprite7.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

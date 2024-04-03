@@ -1,8 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
+/// @description Insert description here
+// You can write your code in this editor
 
-x+=3
+y-=2
 
-if x > room_width{
-	x=0
+if y < 0{
+	y=room_height
 }

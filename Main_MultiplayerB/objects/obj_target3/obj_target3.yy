@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_target3",
-    "path":"sprites/spr_target3/spr_target3.yy",
+    "name":"spr_target34",
+    "path":"sprites/spr_target34/spr_target34.yy",
   },
   "spriteMaskId":null,
   "visible":true,
