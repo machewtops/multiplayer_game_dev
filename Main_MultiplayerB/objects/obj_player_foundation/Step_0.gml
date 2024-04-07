@@ -9,26 +9,26 @@ function get_next_spot_info() {
 			
 			step = 0
 			
-			player_moving = true
+			//player_moving = true
 			break
 		}
 	}
 }
 
 function move_forward() {
-	if !player_moving {
+	//if !player_moving {
 		cur_spot += 1
 	
 		get_next_spot_info()
-	}
+	//}
 }
 
 function move_backward() {
-	if !player_moving {
+	//if !player_moving {
 		cur_spot -= 1
 	
 		get_next_spot_info()
-	}
+	//}
 }
 
 function walk_step() {
@@ -53,7 +53,7 @@ function walk_step() {
 	show_debug_message(spots_remaining);
 	
 	if !(round(abs(walk_to_y - y)) > 0 || round(abs(walk_to_x - x)) > 0) {
-		player_moving = false
+		//player_moving = false
 		if spots_remaining == 0 {
 			show_debug_message("blah")
 			obj_main_game_mgr.new_minigame();
@@ -85,7 +85,7 @@ if old_x == walk_to_x && old_y == walk_to_y {
 	
 	if !(round(abs(walk_to_y - y)) > 0 || round(abs(walk_to_x - x)) > 0) {
 		if spots_remaining == 0 {
-			player_moving = false
+			//player_moving = false
 			obj_main_game_mgr.new_minigame();
 		}
 	}
