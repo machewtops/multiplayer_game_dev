@@ -65,7 +65,7 @@ if DEALEREND == true {
 		endtime--
 	}
 	if endtime <= 0 {
-		room_goto(rm_tiles);
+		obj_main_game_mgr.end_minigame()
 	}
 }
 

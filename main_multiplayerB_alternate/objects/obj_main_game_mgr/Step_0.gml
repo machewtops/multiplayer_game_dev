@@ -19,16 +19,18 @@ function new_minigame() {
 	}
 }
 
+function end_minigame() {
+	game_state = GAME_STATE.WAITING_DICE_ROLL;
+	room_goto(rm_tiles);
+}
+
 if game_state == GAME_STATE.WAITING_DICE_ROLL && keyboard_check_pressed(ord("R")) {
 	game_state = GAME_STATE.PLAYER_MOVING;
-	dice_val = irandom_range(1,6);
 	
-	if player_turn % 2 == 0 {
-		obj_player_1.spots_remaining = dice_val
-	} else {
-		obj_player_2.spots_remaining = dice_val
-	}
-} else if game_state == GAME_STATE.IN_MINIGAME && keyboard_check_pressed(ord("E")) {
+	obj_player_1.spots_remaining = 1;
+	obj_player_2.spots_remaining = 1;
+	obj_player_3.spots_remaining = 1;
+} else if game_state == GAME_STATE.IN_MINIGAME && keyboard_check_pressed(ord("8")) {
 	game_state = GAME_STATE.WAITING_DICE_ROLL;
 	room = rm_tiles;
 	player_turn++;

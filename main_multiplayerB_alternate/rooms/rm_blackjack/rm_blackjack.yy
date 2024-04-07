@@ -6,10 +6,10 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_71BABCBD","path":"rooms/rm_blackjack/rm_blackjack.yy",},
     {"name":"inst_5762F5E2","path":"rooms/rm_blackjack/rm_blackjack.yy",},
     {"name":"inst_674B275","path":"rooms/rm_blackjack/rm_blackjack.yy",},
     {"name":"inst_40780A1A","path":"rooms/rm_blackjack/rm_blackjack.yy",},
+    {"name":"inst_71BABCBD","path":"rooms/rm_blackjack/rm_blackjack.yy",},
   ],
   "isDnd":false,
   "layers":[

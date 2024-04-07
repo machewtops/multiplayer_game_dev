@@ -10,6 +10,8 @@
 
 if endtime >0{
 	endtime --
+} else {
+	obj_main_game_mgr.end_minigame()
 }
 
 	
