@@ -20,11 +20,11 @@ function new_minigame() {
 }
 
 function end_minigame() {
-	game_state = GAME_STATE.WAITING_DICE_ROLL;
+	game_state = GAME_STATE.PLAYER_MOVING;
 	room_goto(rm_tiles);
 }
 
-if game_state == GAME_STATE.WAITING_DICE_ROLL && keyboard_check_pressed(ord("R")) {
+if game_state == GAME_STATE.WAITING_DICE_ROLL {
 	game_state = GAME_STATE.PLAYER_MOVING;
 	
 	obj_player_1.spots_remaining = 1;
