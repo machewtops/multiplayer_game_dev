@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 function new_minigame() {
-	dice_val = irandom_range(1,6);
+	dice_val = irandom_range(1,3);
 	
 	game_state = GAME_STATE.IN_MINIGAME;
 	
