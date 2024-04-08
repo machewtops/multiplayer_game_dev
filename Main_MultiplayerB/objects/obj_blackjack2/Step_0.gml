@@ -46,21 +46,21 @@ if keyboard_check_pressed(ord("H")) && endstate == false {
 	DEALERREVEAL2 = true;
 }
 
-if DEALEREND == true {
+if DEALEREND == true{
 	if cardtotal > DEALERCARD && cardtotal < 22{
 		winstate = true;
-		SCOREP2+=2;
+		SCOREP2 += 2;
 	}
 	if cardtotal < DEALERCARD && DEALERBUST = false{
 		failstate = true;
 	}
 	if cardtotal < DEALERCARD && cardtotal < 22 && DEALERBUST = true{
 		winstate = true;
-		SCOREP2+=2;
+		SCOREP2 += 2;
 	}
 	if cardtotal == DEALERCARD && cardtotal < 21{
 		tiestate = true;
-		SCOREP2+=1;
+		SCOREP2 ++;
 	}
 }
 

@@ -46,15 +46,19 @@ if keyboard_check_pressed(vk_down) && endstate == false {
 	DEALERREVEAL3 = true;
 }
 
-if DEALEREND == true {
+if DEALEREND == true{
 	if cardtotal > DEALERCARD && cardtotal < 22{
 		winstate = true;
 		SCOREP3+=2;
 	}
-	if cardtotal < DEALERCARD && DEALERBUST = false{
+	else if cardtotal == 21 {
+		winstate = true;
+		SCOREP3+=2;
+	}
+	else if cardtotal < DEALERCARD && DEALERBUST = false{
 		failstate = true;
 	}
-	if cardtotal < DEALERCARD && cardtotal < 22 && DEALERBUST = true{
+	else if cardtotal < DEALERCARD && cardtotal < 22 && DEALERBUST = true{
 		winstate = true;
 		SCOREP3+=2;
 	}

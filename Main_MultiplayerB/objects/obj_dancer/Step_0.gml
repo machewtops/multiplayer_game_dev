@@ -51,7 +51,7 @@ if timeleft > 0 {
 	timeleft -- 
 }
 
-if timeleft <= 0 {
+if timeleft <= 1 {
 	if obj_dancer_1.p1score > obj_dancer_2.p2score && obj_dancer_1.p1score > obj_dancer_3.p3score {
 		if obj_dancer_2.p2score > obj_dancer_3.p3score {
 			SCOREP1=+2;

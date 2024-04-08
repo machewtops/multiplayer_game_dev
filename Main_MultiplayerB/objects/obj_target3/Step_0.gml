@@ -46,7 +46,7 @@ if (collision_circle(x,y,7, obj_bal7,false,false))&&(keyboard_check_pressed(vk_r
 
 if hitscore ==3{
 	room_goto(rm_tiles)
-	SCOREP3 ++
+	SCOREP3 =+ 2;
 }
 
 

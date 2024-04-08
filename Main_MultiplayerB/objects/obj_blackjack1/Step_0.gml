@@ -46,7 +46,7 @@ if keyboard_check_pressed(ord("S")) && endstate == false {
 	DEALERREVEAL = true;
 }
 
-if DEALEREND == true {
+if DEALEREND == true{
 	if cardtotal > DEALERCARD && cardtotal < 22{
 		winstate = true;
 		SCOREP1+=2;
