@@ -44,20 +44,27 @@ if (collision_circle(x,y,7, obj_bal7,false,false))&&(keyboard_check_pressed(ord(
 
 if hitscore ==3{
 	SCOREP2 ++
-	room_goto(rm_tiles)
+	obj_main_game_mgr.end_minigame()
 }
 
-
 if keyboard_check(ord("Y")){
-	y-=targetspd
+	if y > sprite_height / 4 {
+		y-=targetspd
+	}
 }
 
 if keyboard_check(ord("H")){
-	y+=targetspd
+	if y < room_height - sprite_height / 4 {
+		y+=targetspd
+	}
 }
 if keyboard_check(ord("G")){
-	x-=targetspd
+	if x > sprite_width / 4 {
+		x-=targetspd
+	}
 }
 if keyboard_check(ord("J")){
-	x+=targetspd
+	if x < room_width - sprite_width / 4 {
+		x+=targetspd
+	}
 }
