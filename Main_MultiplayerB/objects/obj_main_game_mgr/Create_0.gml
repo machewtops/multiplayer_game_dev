@@ -18,3 +18,4 @@ enum GAME_STATE {
 
 player_turn = 0;
 game_state = GAME_STATE.WAITING_DICE_ROLL;
+
