@@ -13,6 +13,9 @@ function new_minigame() {
 		case 2:
 			room = rm_dance;
 			break;
+		case 3: 
+			room = rm_hotpot;
+			break;
 		default:
 			room = rm_blackjack;
 			break;
@@ -27,6 +30,8 @@ function end_minigame() {
 
 if game_state == GAME_STATE.WAITING_DICE_ROLL && keyboard_check_pressed(ord("R")) {
 	game_state = GAME_STATE.PLAYER_MOVING;
+	newseed = random_range(1000,1000);
+	random_get_seed(newseed);
 	dice_val = irandom_range(1,6);
 	
 	obj_player_1.spots_remaining = 1;
