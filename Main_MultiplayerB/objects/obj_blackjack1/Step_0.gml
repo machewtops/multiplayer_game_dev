@@ -13,7 +13,7 @@ if init_time > 0 {
 
 // sets the initial two cards due to repeated probability if set automatically. 
 // reveals both cards at once since basically being dealt. 
-if endstate = false {
+if endstate == false && failstate == false{
 	//if keyboard_check_pressed(ord("W")) && card1 == 0{
 	if init_time > -10 && init_time <= 0 {
 		init_time = -10
@@ -38,6 +38,7 @@ if endstate = false {
 if cardtotal == 21 {
 	endstate = true;
 	DEALERREVEAL = true;
+	winstate = true;
 }
 
 if keyboard_check_pressed(ord("S")) && endstate == false {

@@ -3,7 +3,7 @@
 seed = random_range(0,10000)
 random_set_seed(seed)
 init_time = random_range(0,2)
-endtime = 2*30;
+endtime = 4*30;
 card1 = 0;
 card2 = 0;
 card3 = 0;
