@@ -13,7 +13,7 @@ if init_time > 0 {
 
 // sets the initial two cards due to repeated probability if set automatically. 
 // reveals both cards at once since basically being dealt. 
-if endstate == false && failstate == false{
+if endstate == false && failstate == false && winstate == false{
 	//if keyboard_check_pressed(ord("W")) && card1 == 0{
 	if init_time > -10 && init_time <= 0 {
 		init_time = -10
@@ -58,7 +58,7 @@ if DEALEREND == true {
 		winstate = true;
 		SCOREP1+=2;
 	}
-	if cardtotal == DEALERCARD && cardtotal < 22{
+	if cardtotal == DEALERCARD && cardtotal < 21{
 		tiestate = true;
 		SCOREP1+=1;
 	}

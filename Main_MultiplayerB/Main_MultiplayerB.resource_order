@@ -29,6 +29,7 @@
     {"name":"obj_baloon","order":4,"path":"objects/obj_baloon/obj_baloon.yy",},
     {"name":"obj_baloon2","order":8,"path":"objects/obj_baloon2/obj_baloon2.yy",},
     {"name":"obj_baloon26","order":9,"path":"objects/obj_baloon26/obj_baloon26.yy",},
+    {"name":"obj_blackjack_controls","order":61,"path":"objects/obj_blackjack_controls/obj_blackjack_controls.yy",},
     {"name":"obj_blackjack_dealer_card1","order":37,"path":"objects/obj_blackjack_dealer_card1/obj_blackjack_dealer_card1.yy",},
     {"name":"obj_blackjack_dealer_card2","order":38,"path":"objects/obj_blackjack_dealer_card2/obj_blackjack_dealer_card2.yy",},
     {"name":"obj_blackjack_dealer_card3","order":39,"path":"objects/obj_blackjack_dealer_card3/obj_blackjack_dealer_card3.yy",},
@@ -70,7 +71,6 @@
     {"name":"obj_target","order":5,"path":"objects/obj_target/obj_target.yy",},
     {"name":"obj_target2","order":6,"path":"objects/obj_target2/obj_target2.yy",},
     {"name":"obj_target3","order":7,"path":"objects/obj_target3/obj_target3.yy",},
-    {"name":"obj_blackjack_controls","order":61,"path":"objects/obj_blackjack_controls/obj_blackjack_controls.yy",},
     {"name":"rm_balloon","order":1,"path":"rooms/rm_balloon/rm_balloon.yy",},
     {"name":"rm_blackjack","order":2,"path":"rooms/rm_blackjack/rm_blackjack.yy",},
     {"name":"rm_tiles","order":3,"path":"rooms/rm_tiles/rm_tiles.yy",},
@@ -154,5 +154,6 @@
     {"name":"Sprite7","order":23,"path":"sprites/Sprite7/Sprite7.yy",},
     {"name":"Sprite78","order":25,"path":"sprites/Sprite78/Sprite78.yy",},
     {"name":"Sprite789","order":26,"path":"sprites/Sprite789/Sprite789.yy",},
+    {"name":"spr_blackjack_background","order":82,"path":"sprites/spr_blackjack_background/spr_blackjack_background.yy",},
   ],
 }

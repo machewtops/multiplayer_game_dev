@@ -1,13 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
-draw_text(room_width/4*3,room_height/2+75,"P3")
-draw_text(room_width/4*3,room_height/2+100,cardtotal);
+draw_text(room_width/4*3,room_height/2+40,"P3")
+draw_text(room_width/4*3,room_height/2+65,cardtotal);
 if failstate == true {
-	draw_text(room_width/4*3,room_height/2+125,"you failed!");
+	draw_text(room_width/4*3,room_height/2+90,"you failed!");
 }
 if winstate == true {
-	draw_text(room_width/4*3,room_height/2+125,"you won!");
+	draw_text(room_width/4*3,room_height/2+90,"you won!");
 }
 if tiestate == true {
-	draw_text(room_width/4*3,room_height/2+125,"you tied!");
+	draw_text(room_width/4*3,room_height/2+90,"you tied!");
 }
