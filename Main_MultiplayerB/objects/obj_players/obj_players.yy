@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player_3",
-  "eventList":[],
+  "%Name":"obj_players",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_player_3",
+  "name":"obj_players",
   "overriddenProperties":[],
   "parent":{
     "name":"tiles",
     "path":"folders/Objects/tiles.yy",
   },
-  "parentObjectId":{
-    "name":"obj_player_foundation",
-    "path":"objects/obj_player_foundation/obj_player_foundation.yy",
-  },
-  "persistent":true,
+  "parentObjectId":null,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player_3",
-    "path":"sprites/spr_player_3/spr_player_3.yy",
+    "name":"spr_player",
+    "path":"sprites/spr_player/spr_player.yy",
   },
   "spriteMaskId":null,
   "visible":true,
