@@ -15,3 +15,5 @@ failstate = false
 endstate = false
 winstate = false
 tiestate = false;
+scoreaddtwo = false;
+scoreaddone = false;

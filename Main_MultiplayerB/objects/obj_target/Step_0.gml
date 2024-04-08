@@ -40,9 +40,8 @@ if (collision_circle(x,y,7, obj_bal7,false,false))&&(keyboard_check_pressed(ord(
 }
 
 if hitscore ==3{
-	SCOREP1 ++
+	SCOREP1 =+ 2; 
 	obj_main_game_mgr.end_minigame()
-	room_goto(rm_tiles)
 }
 
 if keyboard_check(ord("W")){

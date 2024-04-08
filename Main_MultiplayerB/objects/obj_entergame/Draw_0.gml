@@ -1,8 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-
-got_num =0
-
-
-p2posx = obj_hotplayer2.x
+draw_text(room_width/2,room_height/2,"press space to enter");

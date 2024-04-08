@@ -45,7 +45,7 @@ if (collision_circle(x,y,7, obj_bal7,false,false))&&(keyboard_check_pressed(vk_r
 }
 
 if hitscore ==3{
-	SCOREP3 ++
+	SCOREP3 =+ 2;
 	obj_main_game_mgr.end_minigame()
 }
 
