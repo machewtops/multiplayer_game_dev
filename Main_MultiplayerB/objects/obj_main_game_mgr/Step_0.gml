@@ -13,9 +13,6 @@ function new_minigame() {
 		case 2:
 			room = rm_dance;
 			break;
-		case 3: 
-			room = rm_hotpot;
-			break;
 		default:
 			room = rm_blackjack;
 			break;
