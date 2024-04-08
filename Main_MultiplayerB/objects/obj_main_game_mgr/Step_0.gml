@@ -24,20 +24,14 @@ function end_minigame() {
 
 if game_state == GAME_STATE.WAITING_DICE_ROLL {
 	game_state = GAME_STATE.PLAYER_MOVING;
-	dice_val = irandom_range(1,6);
 	
 	obj_players.spots_remaining = 1;
-} 
-else if game_state == GAME_STATE.IN_MINIGAME && keyboard_check_pressed(ord("E")) {
+} else if game_state == GAME_STATE.IN_MINIGAME && keyboard_check_pressed(ord("8")) {
 	end_minigame()
 }
 
 if game_state == GAME_STATE.IN_MINIGAME {
-	for (v = 0; v < instance_number(obj_players); v++) {
-		instance_find(obj_players,v).visible = false
-	}
+	obj_players.visible = false
 } else {
-	for (v = 0; v < instance_number(obj_players); v++) {
-		instance_find(obj_players,v).visible = true
-	}
+	obj_players.visible = true
 }
