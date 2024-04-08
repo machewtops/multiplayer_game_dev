@@ -1,9 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+t_mil=0
+t_sec = 10
 
-x+=5
+timer_stop = false
 
-if x > room_width{
-	x=0
-}
+alarm[0] =6
