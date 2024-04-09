@@ -85,7 +85,6 @@
     {"name":"rm_blackjack","order":2,"path":"rooms/rm_blackjack/rm_blackjack.yy",},
     {"name":"rm_friday_night_funkin","order":6,"path":"rooms/rm_friday_night_funkin/rm_friday_night_funkin.yy",},
     {"name":"rm_hotpot","order":4,"path":"rooms/rm_hotpot/rm_hotpot.yy",},
-    {"name":"rm_menu","order":5,"path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"rm_tiles","order":3,"path":"rooms/rm_tiles/rm_tiles.yy",},
     {"name":"Dealer1","order":36,"path":"sprites/Dealer1/Dealer1.yy",},
     {"name":"Dealer10","order":45,"path":"sprites/Dealer10/Dealer10.yy",},
@@ -132,7 +131,6 @@
     {"name":"P38","order":75,"path":"sprites/P38/P38.yy",},
     {"name":"P39","order":76,"path":"sprites/P39/P39.yy",},
     {"name":"P3A","order":49,"path":"sprites/P3A/P3A.yy",},
-    {"name":"spr_blackjack_background","order":82,"path":"sprites/spr_blackjack_background/spr_blackjack_background.yy",},
     {"name":"spr_blackjack_controls","order":81,"path":"sprites/spr_blackjack_controls/spr_blackjack_controls.yy",},
     {"name":"spr_crouch","order":4,"path":"sprites/spr_crouch/spr_crouch.yy",},
     {"name":"spr_dancer","order":6,"path":"sprites/spr_dancer/spr_dancer.yy",},
@@ -176,5 +174,6 @@
     {"name":"Sprite7","order":23,"path":"sprites/Sprite7/Sprite7.yy",},
     {"name":"Sprite78","order":25,"path":"sprites/Sprite78/Sprite78.yy",},
     {"name":"Sprite789","order":26,"path":"sprites/Sprite789/Sprite789.yy",},
+    {"name":"spr_blackjack_background","order":82,"path":"sprites/spr_blackjack_background/spr_blackjack_background.yy",},
   ],
 }
