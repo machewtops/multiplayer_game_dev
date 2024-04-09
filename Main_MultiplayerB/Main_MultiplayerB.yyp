@@ -203,8 +203,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_friday_night_funkin","path":"rooms/rm_friday_night_funkin/rm_friday_night_funkin.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"roomId":{"name":"rm_friday_night_funkin","path":"rooms/rm_friday_night_funkin/rm_friday_night_funkin.yy",},},
     {"roomId":{"name":"rm_tiles","path":"rooms/rm_tiles/rm_tiles.yy",},},
     {"roomId":{"name":"rm_hotpot","path":"rooms/rm_hotpot/rm_hotpot.yy",},},
     {"roomId":{"name":"rm_dance","path":"rooms/rm_dance/rm_dance.yy",},},
