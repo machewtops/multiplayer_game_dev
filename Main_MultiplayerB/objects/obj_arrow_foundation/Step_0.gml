@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 if !spawner {
-	y += 7.5
+	y += 5
 } else {
 	if irandom(50) == 10 && get_timer() - last_fire_time > 2000000 {
 		instance_create_depth(x,0,1,object_index);
@@ -49,7 +49,11 @@ if !spawner {
 			break;
 	}
 
-	if collision_circle(x,y,16,object_index,false,true) && keyboard_check_pressed(key_track) {
+	object = collision_circle(x,y,16,object_index,false,true)
+	
+	if object && keyboard_check_pressed(key_track) {
+		instance_destroy(object);
 		SCORES[player-1] += 1;
+		
 	}
 }
