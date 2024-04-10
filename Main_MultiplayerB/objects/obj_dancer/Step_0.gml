@@ -54,31 +54,31 @@ if timeleft > 0 {
 if timeleft <= 1 {
 	if obj_dancer_1.p1score > obj_dancer_2.p2score && obj_dancer_1.p1score > obj_dancer_3.p3score {
 		if obj_dancer_2.p2score > obj_dancer_3.p3score {
-			SCOREP1=+2;
+			SCOREP1=SCOREP1+2;
 		    SCOREP2++;
 		}
 		else {
-			SCOREP1=+2;
+			SCOREP1=SCOREP1+2;
 		    SCOREP3++;
 		}
 	}
 	if obj_dancer_2.p2score > obj_dancer_1.p1score && obj_dancer_2.p2score > obj_dancer_3.p3score {
 		if obj_dancer_1.p1score > obj_dancer_3.p3score {
-			SCOREP2=+2;
+			SCOREP2=SCOREP2+2;
 		    SCOREP1++;
 		}
 		else {
-			SCOREP2=+2;
+			SCOREP2=SCOREP2+2;
 		    SCOREP3++;
 		}
 	}
 	if obj_dancer_3.p3score > obj_dancer_2.p2score && obj_dancer_3.p3score > obj_dancer_1.p1score {
 		if obj_dancer_1.p1score > obj_dancer_2.p2score {
-			SCOREP3=+2;
+			SCOREP3=SCOREP3+2;
 		    SCOREP1++;
 		}
 		else {
-			SCOREP3=+2;
+			SCOREP3=SCOREP3+2;
 		    SCOREP2++;
 		}
 	}
