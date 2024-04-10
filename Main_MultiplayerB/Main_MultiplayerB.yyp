@@ -219,6 +219,7 @@
     {"id":{"name":"spr_up_green","path":"sprites/spr_up_green/spr_up_green.yy",},},
     {"id":{"name":"spr_up_red","path":"sprites/spr_up_red/spr_up_red.yy",},},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
+    {"id":{"name":"spr_players","path":"sprites/spr_players/spr_players.yy",},},
     {"id":{"name":"Sprite15","path":"sprites/Sprite15/Sprite15.yy",},},
     {"id":{"name":"Sprite156","path":"sprites/Sprite156/Sprite156.yy",},},
     {"id":{"name":"Sprite40","path":"sprites/Sprite40/Sprite40.yy",},},

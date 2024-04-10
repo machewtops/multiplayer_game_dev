@@ -189,6 +189,7 @@
     {"name":"spr_up_green","order":7,"path":"sprites/spr_up_green/spr_up_green.yy",},
     {"name":"spr_up_red","order":11,"path":"sprites/spr_up_red/spr_up_red.yy",},
     {"name":"Sprite1","order":18,"path":"sprites/Sprite1/Sprite1.yy",},
+    {"name":"spr_players","order":88,"path":"sprites/spr_players/spr_players.yy",},
     {"name":"Sprite15","order":22,"path":"sprites/Sprite15/Sprite15.yy",},
     {"name":"Sprite156","order":24,"path":"sprites/Sprite156/Sprite156.yy",},
     {"name":"Sprite40","order":40,"path":"sprites/Sprite40/Sprite40.yy",},
