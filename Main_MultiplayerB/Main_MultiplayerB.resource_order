@@ -20,6 +20,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_arrow_foundation","order":4,"path":"objects/obj_arrow_foundation/obj_arrow_foundation.yy",},
     {"name":"obj_bal","order":10,"path":"objects/obj_bal/obj_bal.yy",},
     {"name":"obj_bal2","order":11,"path":"objects/obj_bal2/obj_bal2.yy",},
     {"name":"obj_bal3","order":12,"path":"objects/obj_bal3/obj_bal3.yy",},
@@ -80,7 +81,7 @@
     {"name":"obj_target2","order":6,"path":"objects/obj_target2/obj_target2.yy",},
     {"name":"obj_target3","order":7,"path":"objects/obj_target3/obj_target3.yy",},
     {"name":"obj_up","order":2,"path":"objects/obj_up/obj_up.yy",},
-    {"name":"obj_arrow_foundation","order":4,"path":"objects/obj_arrow_foundation/obj_arrow_foundation.yy",},
+    {"name":"obj_funkin_mgr","order":5,"path":"objects/obj_funkin_mgr/obj_funkin_mgr.yy",},
     {"name":"rm_balloon","order":1,"path":"rooms/rm_balloon/rm_balloon.yy",},
     {"name":"rm_blackjack","order":2,"path":"rooms/rm_blackjack/rm_blackjack.yy",},
     {"name":"rm_friday_night_funkin","order":6,"path":"rooms/rm_friday_night_funkin/rm_friday_night_funkin.yy",},
@@ -131,6 +132,7 @@
     {"name":"P38","order":75,"path":"sprites/P38/P38.yy",},
     {"name":"P39","order":76,"path":"sprites/P39/P39.yy",},
     {"name":"P3A","order":49,"path":"sprites/P3A/P3A.yy",},
+    {"name":"spr_blackjack_background","order":82,"path":"sprites/spr_blackjack_background/spr_blackjack_background.yy",},
     {"name":"spr_blackjack_controls","order":81,"path":"sprites/spr_blackjack_controls/spr_blackjack_controls.yy",},
     {"name":"spr_crouch","order":4,"path":"sprites/spr_crouch/spr_crouch.yy",},
     {"name":"spr_dancer","order":6,"path":"sprites/spr_dancer/spr_dancer.yy",},
@@ -174,6 +176,5 @@
     {"name":"Sprite7","order":23,"path":"sprites/Sprite7/Sprite7.yy",},
     {"name":"Sprite78","order":25,"path":"sprites/Sprite78/Sprite78.yy",},
     {"name":"Sprite789","order":26,"path":"sprites/Sprite789/Sprite789.yy",},
-    {"name":"spr_blackjack_background","order":82,"path":"sprites/spr_blackjack_background/spr_blackjack_background.yy",},
   ],
 }
