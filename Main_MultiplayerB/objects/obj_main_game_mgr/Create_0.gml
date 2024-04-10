@@ -14,5 +14,5 @@ enum GAME_STATE {
 player_turn = 0;
 game_state = GAME_STATE.WAITING_DICE_ROLL;
 
-game_array = [rm_balloon, rm_blackjack, rm_dance, rm_hotpot, rm_friday_night_funkin]
+game_array = [rm_balloon, rm_blackjack, rm_dance, rm_hotpot, rm_friday_night_funkin, rm_keysmash]
 game_already_played = []
