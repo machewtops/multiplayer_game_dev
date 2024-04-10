@@ -10,8 +10,8 @@
   "name":"obj_blackjack3_card3",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"blackjack",
+    "path":"folders/Objects/blackjack.yy",
   },
   "parentObjectId":null,
   "persistent":false,
