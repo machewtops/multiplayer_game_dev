@@ -40,15 +40,19 @@ if !spawner {
 	switch object_index {
 		case obj_up:
 			key_track = up
+			image_index = 0;
 			break;
 		case obj_down:
 			key_track = down
+			image_index = 0;
 			break;
 		case obj_left:
 			key_track = left
+			image_index = 0;
 			break;
 		case obj_right:
 			key_track = right
+			image_index = 0;
 			break;
 		default:
 			break;
