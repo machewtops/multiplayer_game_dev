@@ -9,6 +9,7 @@ card3 = 0;
 card4 = 0;
 card5 = 0;
 card6 = 0;
+scoreadded=false;
 cardtotal = card1 + card2 + card3 + card4;
 acecheck = true
 failstate = false

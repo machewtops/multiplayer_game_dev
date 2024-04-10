@@ -49,22 +49,34 @@ if keyboard_check_pressed(vk_down) && endstate == false {
 if DEALEREND == true{
 	if cardtotal > DEALERCARD && cardtotal < 22{
 		winstate = true;
-		SCOREP3+=2;
+		if scoreadded==false{
+			SCOREP3+=2;
+			scoreadded=true;
+		}
 	}
 	else if cardtotal == 21 {
 		winstate = true;
-		SCOREP3+=2;
+		if scoreadded==false{
+			SCOREP3+=2;
+			scoreadded=true;
+		}
 	}
 	else if cardtotal < DEALERCARD && DEALERBUST = false{
 		failstate = true;
 	}
 	else if cardtotal < DEALERCARD && cardtotal < 22 && DEALERBUST = true{
 		winstate = true;
-		SCOREP3+=2;
+		if scoreadded==false{
+			SCOREP3+=2;
+			scoreadded=true;
+		}
 	}
 	if cardtotal == DEALERCARD && cardtotal < 21{
 		tiestate = true;
-		SCOREP3+=1;
+		if scoreadded==false{
+			SCOREP3++;
+			scoreadded=true;
+		}
 	}
 }
 

@@ -49,18 +49,27 @@ if keyboard_check_pressed(ord("S")) && endstate == false {
 if DEALEREND == true{
 	if cardtotal > DEALERCARD && cardtotal < 22{
 		winstate = true;
-		SCOREP1+=2;
+		if scoreadded == false {
+			SCOREP1+=2;
+			scoreadded = true;
+		}
 	}
 	if cardtotal < DEALERCARD && DEALERBUST = false{
 		failstate = true;
 	}
 	if cardtotal < DEALERCARD && cardtotal < 22 && DEALERBUST = true{
 		winstate = true;
-		SCOREP1+=2;
+		if scoreadded == false {
+			SCOREP1+=2;
+			scoreadded = true;
+		}
 	}
 	if cardtotal == DEALERCARD && cardtotal < 21{
 		tiestate = true;
-		SCOREP1+=1;
+		if scoreadded == false {
+			SCOREP1++;
+			scoreadded = true;
+		}
 	}
 	if endtime > 0 {
 		endtime--
