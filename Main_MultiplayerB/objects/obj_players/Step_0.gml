@@ -28,7 +28,7 @@ function move_backward() {
 
 function walk_step() {
 	if round(abs(walk_to_x - x)) > 0 {
-		x = lerp(old_x, walk_to_x, step / 180)
+		x = lerp(old_x, walk_to_x, step / 90)
 		step += 1
 		if round(abs(walk_to_x - x)) <= 0 {
 			old_x = x
@@ -37,7 +37,7 @@ function walk_step() {
 	}
 
 	if round(abs(walk_to_y - y)) > 0 && !(round(abs(walk_to_x - x)) > 0) {
-		y = lerp(old_y, walk_to_y, step / 180)
+		y = lerp(old_y, walk_to_y, step / 90)
 		step += 1
 		if round(abs(walk_to_y - y)) <= 0 {
 			old_y = y
@@ -74,7 +74,10 @@ if old_x == walk_to_x && old_y == walk_to_y {
 	walk_step()
 	
 	if !(round(abs(walk_to_y - y)) > 0 || round(abs(walk_to_x - x)) > 0) {
-		if spots_remaining == 0 {
+		if cur_spot == instance_number(obj_floorspot) {
+			visible = false
+			room_goto(rm_winner)
+		} else if spots_remaining == 0 {
 			obj_main_game_mgr.new_minigame();
 		}
 	}
