@@ -16,4 +16,4 @@
 
 //draw_text(room_width/2,5,t)
 
-draw_text(50,50,"Countdown: " + string(int64(timeleft/30)))
+draw_text(100,50,"Countdown: " + string(int64(timeleft/30)))

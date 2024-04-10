@@ -78,8 +78,6 @@
     {"name":"obj_hotplayer3","order":42,"path":"objects/obj_hotplayer3/obj_hotplayer3.yy",},
     {"name":"obj_hotpotato_mg","order":43,"path":"objects/obj_hotpotato_mg/obj_hotpotato_mg.yy",},
     {"name":"obj_hotpotato","order":38,"path":"objects/obj_hotpotato/obj_hotpotato.yy",},
-    {"name":"obj_hotpotato2","order":39,"path":"objects/obj_hotpotato2/obj_hotpotato2.yy",},
-    {"name":"obj_hotpotato3","order":40,"path":"objects/obj_hotpotato3/obj_hotpotato3.yy",},
     {"name":"obj_main_game_mgr","order":1,"path":"objects/obj_main_game_mgr/obj_main_game_mgr.yy",},
     {"name":"obj_players","order":5,"path":"objects/obj_players/obj_players.yy",},
     {"name":"obj_right","order":1,"path":"objects/obj_right/obj_right.yy",},
@@ -183,5 +181,6 @@
     {"name":"Sprite7","order":23,"path":"sprites/Sprite7/Sprite7.yy",},
     {"name":"Sprite78","order":25,"path":"sprites/Sprite78/Sprite78.yy",},
     {"name":"Sprite789","order":26,"path":"sprites/Sprite789/Sprite789.yy",},
+    {"name":"Sprite92","order":86,"path":"sprites/Sprite92/Sprite92.yy",},
   ],
 }

@@ -29,4 +29,4 @@ game_set_speed(30,gamespeed_fps)
 timeleft = game_get_speed(gamespeed_fps) * 10
 //alarm[0] = (game_get_speed(gamespeed_fps) * 1.5);
 
-timerrestart = false
+

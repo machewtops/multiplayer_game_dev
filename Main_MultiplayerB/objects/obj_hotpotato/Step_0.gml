@@ -18,33 +18,55 @@
 //	image_alpha = 0
 //}
 
-if keyboard_check(ord("A")){
+if instance_exists(obj_hotplayer2) && keyboard_check(ord("A")){
 	x = obj_hotplayer2.x;
 	y = obj_hotplayer2.y -10;
 	image_alpha = 1
+}else{
+	x=x 
+	y=y
 }
-if keyboard_check(ord("D")){
+if instance_exists(obj_hotplayer3) && keyboard_check(ord("D")){
 	x = obj_hotplayer3.x;
 	y = obj_hotplayer3.y -10;
 	image_alpha = 1
+}else{
+	x=x 
+	y=y
 }
-if keyboard_check(ord("G")){
+
+
+if instance_exists(obj_hotplayer) && keyboard_check(ord("G")){
 	x = obj_hotplayer.x;
 	y = obj_hotplayer.y -10;
 	image_alpha = 1
+}else{
+	x=x 
+	y=y
 }
-if keyboard_check(ord("J")){
+if instance_exists(obj_hotplayer3) && keyboard_check(ord("J")){
 	x = obj_hotplayer3.x;
 	y = obj_hotplayer3.y -10;
 	image_alpha = 1
+}else{
+	x=x 
+	y=y
 }
-if keyboard_check(vk_left){
+
+
+if instance_exists(obj_hotplayer2) && keyboard_check(vk_left){
 	x = obj_hotplayer2.x;
 	y = obj_hotplayer2.y -10;
 	image_alpha = 1
+}else{
+	x=x 
+	y=y
 }
-if keyboard_check(vk_right){
+if instance_exists(obj_hotplayer) && keyboard_check(vk_right){
 	x = obj_hotplayer.x;
 	y = obj_hotplayer.y -10;
 	image_alpha = 1
+}else{
+	x=x 
+	y=y
 }
