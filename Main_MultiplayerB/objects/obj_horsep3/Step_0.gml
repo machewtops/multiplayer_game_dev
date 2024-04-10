@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 if pressed == false && totalpress < 70{
-	if keyboard_check_pressed(ord("W")){
+	if keyboard_check_pressed(vk_up){
 		totalpress++;
 		pressed = true;
 		if horseframe < 8 {
@@ -13,11 +13,10 @@ if pressed == false && totalpress < 70{
 		}
 	}
 }
-else if keyboard_check_released(ord("W")){
+else if keyboard_check_released(vk_up){
 	pressed = false;
 }
 
-p1pos = initpos + (1266/70 * totalpress);
-
-x = p1pos;
+p3pos = initpos + (1266/70 * totalpress);
+x=p3pos;
 image_index = horseframe;
