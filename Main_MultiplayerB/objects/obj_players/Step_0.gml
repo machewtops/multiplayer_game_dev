@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if room = rm_winner {
+	visible = false
+}
+
 function get_next_spot_info() {
 	for (i = 0; i < instance_number(obj_floorspot); i++) {
 		if instance_find(obj_floorspot,i).floorspot == cur_spot {
@@ -75,7 +79,6 @@ if old_x == walk_to_x && old_y == walk_to_y {
 	
 	if !(round(abs(walk_to_y - y)) > 0 || round(abs(walk_to_x - x)) > 0) {
 		if cur_spot == instance_number(obj_floorspot) {
-			visible = false
 			room_goto(rm_winner)
 		} else if spots_remaining == 0 {
 			obj_main_game_mgr.new_minigame();
