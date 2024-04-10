@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_left",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_left",
   "overriddenProperties":[],
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_right",
-    "path":"sprites/spr_right/spr_right.yy",
+    "name":"spr_left_blue",
+    "path":"sprites/spr_left_blue/spr_left_blue.yy",
   },
   "spriteMaskId":null,
   "visible":true,
