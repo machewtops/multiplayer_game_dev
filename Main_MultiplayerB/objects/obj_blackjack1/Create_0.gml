@@ -17,3 +17,4 @@ failstate = false
 endstate = false
 winstate = false
 tiestate = false;
+ace_amt_reduce = false;
