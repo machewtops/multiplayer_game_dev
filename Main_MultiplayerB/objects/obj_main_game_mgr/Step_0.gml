@@ -14,12 +14,14 @@ function new_minigame() {
 	
 	game_state = GAME_STATE.IN_MINIGAME
 	room_goto(chosen_room)
+	audio_pause_sound(snd_tiles)
 }
 
 function end_minigame() {
 	game_state = GAME_STATE.WAITING_DICE_ROLL;
 	room = rm_tiles;
 	player_turn++;
+	audio_resume_sound(snd_tiles)
 }
 
 if game_state == GAME_STATE.WAITING_DICE_ROLL {

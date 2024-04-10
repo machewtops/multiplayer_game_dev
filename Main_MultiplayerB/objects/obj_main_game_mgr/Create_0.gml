@@ -16,3 +16,5 @@ game_state = GAME_STATE.WAITING_DICE_ROLL;
 
 game_array = [rm_balloon, rm_blackjack, rm_dance, rm_hotpot, rm_friday_night_funkin, rm_horserace]
 game_already_played = []
+
+audio_to_play = audio_play_sound(snd_tiles,0,true)
