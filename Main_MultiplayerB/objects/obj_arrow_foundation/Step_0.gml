@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 if !spawner {
-	y += 1
+	y += 7.5
 } else {
 	if irandom(50) == 10 && get_timer() - last_fire_time > 2000000 {
 		instance_create_depth(x,0,1,object_index);
