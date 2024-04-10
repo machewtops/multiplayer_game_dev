@@ -2,37 +2,41 @@
 // You can write your code in this editor
 
 if obj_blackjack3.card6 > 0 {
-	if obj_blackjack3.card3 == 1 {
+	switch obj_blackjack3.card6 {
+	case 1:
 		sprite_index = P31;
-	}
-	else if obj_blackjack3.card3 == 2 {
+		break;
+	case 2:
 		sprite_index = P32;
-	}
-	else if obj_blackjack3.card3 == 3 {
+		break;
+	case 3:
 		sprite_index = P33;
-	}
-	else if obj_blackjack3.card3 == 4 {
+		break;
+	case 4:
 		sprite_index = P34;
-	}
-	else if obj_blackjack3.card3 == 5 {
+		break;
+	case 5:
 		sprite_index = P35;
-	}
-	else if obj_blackjack3.card3 == 6 {
+		break;
+	case 6:
 		sprite_index = P36;
-	}
-	else if obj_blackjack3.card3 == 7 {
+		break;
+	case 7:
 		sprite_index = P37;
-	}
-	else if obj_blackjack3.card3 == 8 {
+		break;
+	case 8:
 		sprite_index = P38;
-	}
-	else if obj_blackjack3.card3 == 9 {
+		break;
+	case 9:
 		sprite_index = P39;
-	}
-	else if obj_blackjack3.card3 == 10 {
+		break;
+	case 10:
 		sprite_index = P310;
-	}
-	else if obj_blackjack3.card3 == 11 {
+		break;
+	case 11:
 		sprite_index = P3A;
-	}
+		break;
+	default:
+		break;
+}
 }
