@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_horsep1",
+  "%Name":"obj_horsep2",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_horsep1",
+  "name":"obj_horsep2",
   "overriddenProperties":[],
   "parent":{
     "name":"keysmash",
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_horse1",
-    "path":"sprites/spr_horse1/spr_horse1.yy",
+    "name":"spr_horse2",
+    "path":"sprites/spr_horse2/spr_horse2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

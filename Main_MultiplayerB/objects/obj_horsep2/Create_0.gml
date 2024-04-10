@@ -4,5 +4,5 @@
 totalpress = 0;
 initpos = 50;
 pressed = false;
-x = initpos;
-y = room_height/2;
+x=initpos;
+y=room_height/2+50;
