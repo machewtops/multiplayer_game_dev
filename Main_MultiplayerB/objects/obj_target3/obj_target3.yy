@@ -9,8 +9,8 @@
   "name":"obj_target3",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"balloons",
+    "path":"folders/Objects/balloons.yy",
   },
   "parentObjectId":null,
   "persistent":false,
