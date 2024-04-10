@@ -8,8 +8,8 @@
   "name":"obj_blackjack_controls",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"blackjack",
+    "path":"folders/Objects/blackjack.yy",
   },
   "parentObjectId":null,
   "persistent":false,

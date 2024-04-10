@@ -10,8 +10,8 @@
   "name":"obj_dancer_3",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"dance",
+    "path":"folders/Objects/dance.yy",
   },
   "parentObjectId":null,
   "persistent":false,
