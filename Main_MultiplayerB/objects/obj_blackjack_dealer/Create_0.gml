@@ -23,3 +23,5 @@ card4 = 0;
 card5 = 0;
 card6 = 0;
 totalcard = card1 + card2 + card3 + card4 + card5 + card6;
+
+song_to_play = audio_play_sound(snd_blackjack,0,true);
