@@ -3,9 +3,13 @@
 
 if !spawner {
 	y += 5
+	
+	if y > room_height {
+		instance_destroy(self)
+	}
 } else {
 	if irandom(50) == 10 && get_timer() - last_fire_time > 2000000 {
-		instance_create_depth(x,0,1,object_index);
+		instance_create_depth(x,-40,1,object_index);
 		last_fire_time = get_timer()
 	}
 
