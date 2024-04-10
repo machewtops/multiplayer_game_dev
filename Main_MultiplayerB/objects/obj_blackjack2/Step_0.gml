@@ -78,31 +78,36 @@ if card1 == 11 or card2 == 11 or card3 == 11 or card4 == 11 or card5 == 11 or ca
 }
 
 if card1 == 11 && cardtotal > 21 {
-	card1 = 1
+	ace_amt_reduce = true;
 	acecheck = true;
 }
 else if card2 == 11 && cardtotal > 21 {
-	card2 = 1
+	ace_amt_reduce = true;
 	acecheck = true;
 }
 else if card3 == 11 && cardtotal > 21 {
-	card3 = 1
+	ace_amt_reduce = true;
 	acecheck = true;
 }
 else if card4 == 11 && cardtotal > 21 {
-	card4 = 1
+	ace_amt_reduce = true;
 	acecheck = true;
 }
 else if card5 == 11 && cardtotal > 21 {
-	card5 = 1
+	ace_amt_reduce = true;
 	acecheck = true;
 }
 if card6 == 11 && cardtotal > 21 {
-	card6 = 1
+	ace_amt_reduce = true;
 	acecheck = true;
 }
 
 cardtotal = card1 + card2 + card3 + card4 + card5 + card6;
+
+if ace_amt_reduce {
+	cardtotal -= 10
+}
+
 if keyboard_check_pressed(ord("W")) && cardtotal > 21 && acecheck == true && failstate == false {
 	failstate = true
 	DEALERREVEAL2 = true;

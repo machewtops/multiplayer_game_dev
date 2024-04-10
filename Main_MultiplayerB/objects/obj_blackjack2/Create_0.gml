@@ -18,3 +18,4 @@ winstate = false
 tiestate = false;
 scoreaddtwo = false;
 scoreaddone = false;
+ace_amt_reduce = false;
