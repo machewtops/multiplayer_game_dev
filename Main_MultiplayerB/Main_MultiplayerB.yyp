@@ -198,8 +198,6 @@
     {"id":{"name":"spr_p3face","path":"sprites/spr_p3face/spr_p3face.yy",},},
     {"id":{"name":"spr_p3jump","path":"sprites/spr_p3jump/spr_p3jump.yy",},},
     {"id":{"name":"spr_p3side","path":"sprites/spr_p3side/spr_p3side.yy",},},
-    {"id":{"name":"spr_player_2","path":"sprites/spr_player_2/spr_player_2.yy",},},
-    {"id":{"name":"spr_player_3","path":"sprites/spr_player_3/spr_player_3.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_right","path":"sprites/spr_right/spr_right.yy",},},
     {"id":{"name":"spr_side","path":"sprites/spr_side/spr_side.yy",},},

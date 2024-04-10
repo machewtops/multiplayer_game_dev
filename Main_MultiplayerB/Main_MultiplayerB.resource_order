@@ -169,8 +169,6 @@
     {"name":"spr_p3face","order":18,"path":"sprites/spr_p3face/spr_p3face.yy",},
     {"name":"spr_p3jump","order":19,"path":"sprites/spr_p3jump/spr_p3jump.yy",},
     {"name":"spr_p3side","order":20,"path":"sprites/spr_p3side/spr_p3side.yy",},
-    {"name":"spr_player_2","order":28,"path":"sprites/spr_player_2/spr_player_2.yy",},
-    {"name":"spr_player_3","order":35,"path":"sprites/spr_player_3/spr_player_3.yy",},
     {"name":"spr_player","order":29,"path":"sprites/spr_player/spr_player.yy",},
     {"name":"spr_right","order":1,"path":"sprites/spr_right/spr_right.yy",},
     {"name":"spr_side","order":21,"path":"sprites/spr_side/spr_side.yy",},
