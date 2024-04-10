@@ -4,10 +4,8 @@ draw_text(room_width/2,room_height/2+40,"P2")
 draw_text(room_width/2,room_height/2+65,cardtotal);
 if failstate == true {
 	draw_text(room_width/2,room_height/2+90,"you failed!");
-}
-if winstate == true {
+} else if winstate == true {
 	draw_text(room_width/2,room_height/2+90,"you won!");
-}
-if tiestate == true {
+} else if tiestate == true {
 	draw_text(room_width/2,room_height/2+90,"you tied!");
 }
