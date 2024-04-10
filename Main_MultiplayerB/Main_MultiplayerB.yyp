@@ -216,7 +216,6 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_keysmash","path":"rooms/rm_keysmash/rm_keysmash.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_friday_night_funkin","path":"rooms/rm_friday_night_funkin/rm_friday_night_funkin.yy",},},
     {"roomId":{"name":"rm_tiles","path":"rooms/rm_tiles/rm_tiles.yy",},},
@@ -224,6 +223,7 @@
     {"roomId":{"name":"rm_dance","path":"rooms/rm_dance/rm_dance.yy",},},
     {"roomId":{"name":"rm_balloon","path":"rooms/rm_balloon/rm_balloon.yy",},},
     {"roomId":{"name":"rm_blackjack","path":"rooms/rm_blackjack/rm_blackjack.yy",},},
+    {"roomId":{"name":"rm_keysmash","path":"rooms/rm_keysmash/rm_keysmash.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
