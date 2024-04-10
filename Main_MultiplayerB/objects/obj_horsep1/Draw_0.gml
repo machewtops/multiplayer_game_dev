@@ -4,5 +4,5 @@
 //draw_text(room_width/2,room_height/2,totalpress);
 //draw_text(room_width/2,room_height/2+50,pressed);
 //draw_text(room_width/2,room_height/2+100,p1pos);
-draw_text(room_width/2,room_height/2+100,obj_horserace.racetimer)
+draw_text(50,50,"Time Left: " + string(obj_horserace.racetimer))
 draw_self();
