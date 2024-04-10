@@ -3,8 +3,8 @@
 
 totalpress = 0;
 horseframe = 0;
-image_index = horseframe;
+image_index = 0;
 initpos = 50;
 pressed = false;
-x = initpos;
-y = room_height/2;
+x=initpos;
+y=room_height/2+260;

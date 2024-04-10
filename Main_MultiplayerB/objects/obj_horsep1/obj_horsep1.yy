@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_horse1",
-    "path":"sprites/spr_horse1/spr_horse1.yy",
+    "name":"spr_horse",
+    "path":"sprites/spr_horse/spr_horse.yy",
   },
   "spriteMaskId":null,
   "visible":true,
