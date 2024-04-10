@@ -9,7 +9,8 @@ if !spawner {
 	}
 } else {
 	if irandom(50) == 10 && get_timer() - last_fire_time > 2000000 {
-		instance_create_depth(x,-40,1,object_index);
+		created = instance_create_depth(x,-40,1,object_index);
+		created.player = player;
 		last_fire_time = get_timer()
 	}
 

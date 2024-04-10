@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_up",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_up",
   "overriddenProperties":[],
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_up",
-    "path":"sprites/spr_up/spr_up.yy",
+    "name":"spr_up_blue",
+    "path":"sprites/spr_up_blue/spr_up_blue.yy",
   },
   "spriteMaskId":null,
   "visible":true,

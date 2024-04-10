@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_down",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_down",
   "overriddenProperties":[],
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_down",
-    "path":"sprites/spr_down/spr_down.yy",
+    "name":"spr_down_blue",
+    "path":"sprites/spr_down_blue/spr_down_blue.yy",
   },
   "spriteMaskId":null,
   "visible":true,
